@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Varela Round', sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  border: 2px solid #3c65af;
+  border-radius: 6px;
+  background-color: #8ad1f4;
+  padding: 6px 24px;
+}
+
+button:hover {
+  background-color: #3c65af;
+  color: white;
+}
+
+header, footer {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+  padding: 0 12px;
+}
+
+header {
+  border-bottom: 1px solid #3c65af;
+}
+
+
+.login-button {
+}
+
+footer {
+  bottom: 0;
+}
+
+footer .links li {
+  display: inline;
+}
+
+.ocean {
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  z-index: -1;
+  background-image: url(../images/ocean.svg);
+  background-size: contain;
+}
+
+.ocean img {
+  position: absolute;
+}
+
+.ocean .fish-1 {
+  left: 10%;
+  bottom: 20%;
+  width: 14%;
+}
+
+.ocean .fish-2 {
+  right: 10%;
+  bottom: 24%;
+  width: 14%;
+}
