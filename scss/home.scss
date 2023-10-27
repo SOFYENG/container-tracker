@@ -1,3 +1,4 @@
+@import 'colors';
 
 main {
   display: flex;
@@ -16,7 +17,7 @@ main {
 }
 
 h1 {
-  color: #ffd702;
+  color: $color-1;
   border-bottom: 1px solid #3c65af;
   margin: 30px 70px;
   padding-bottom: 6px;
@@ -28,7 +29,7 @@ h1 {
   width: 90%;
   margin: 20px auto;
   padding: 12px;
-  border: 2px solid #ffd702;
+  border: 2px solid $color-1;
   color: #3c65af;
 }
 
