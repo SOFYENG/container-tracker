@@ -49,6 +49,7 @@ h1 {
   background-color: $color-2;
   border-color: $color-2-darker;
   color: white;
+  transition: background-color 0.3s;
 }
 
 .track-button:hover {
