@@ -13,7 +13,7 @@ main {
   margin: 0 auto; }
 
 h1 {
-  color: #ffd702;
+  color: #EA7317;
   border-bottom: 1px solid #3c65af;
   margin: 30px 70px;
   padding-bottom: 6px; }
@@ -24,20 +24,20 @@ h1 {
   width: 90%;
   margin: 20px auto;
   padding: 12px;
-  border: 2px solid #ffd702;
+  border: 2px solid #EA7317;
   color: #3c65af; }
 
 .search:focus-visible {
   outline: none;
-  border-color: #ea5772; }
+  border-color: #FEC601; }
 
 .track-button {
   padding: 12px 40px;
   font-size: 20px;
   margin-top: 20px;
-  background-color: #ea5772;
-  border-color: #b13248;
+  background-color: #FEC601;
+  border-color: #d7b128;
   color: white; }
 
 .track-button:hover {
-  background-color: #b13248; }
+  background-color: #d7b128; }

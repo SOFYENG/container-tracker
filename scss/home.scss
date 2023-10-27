@@ -35,7 +35,7 @@ h1 {
 
 .search:focus-visible {
   outline: none;
-  border-color: #ea5772;
+  border-color: $color-2;
 }
 
 .info {
@@ -46,11 +46,11 @@ h1 {
   padding: 12px 40px;
   font-size: 20px;
   margin-top: 20px;
-  background-color: #ea5772;
-  border-color: #b13248;
+  background-color: $color-2;
+  border-color: $color-2-darker;
   color: white;
 }
 
 .track-button:hover {
-  background-color: #b13248;
+  background-color: $color-2-darker;
 }
