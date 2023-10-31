@@ -1,0 +1,34 @@
+@import 'colors';
+
+main {
+  margin: 100px auto;
+  max-width: 960px;
+}
+
+.info-block {
+  background-color: $color-6;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  .block-property, .block-value {
+    padding: 8px 16px;
+  }
+
+  .block-property {
+    color: $color-3;
+    text-align: right;
+    padding-right: 8px;
+  }
+
+  .block-value {
+    padding-left: 8px;
+  }
+}
+
+
+.container {
+  padding: 16px;
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
+}

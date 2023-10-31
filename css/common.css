@@ -52,7 +52,9 @@ footer .links {
   width: 100%;
   z-index: -1;
   background-image: url(../images/ocean.svg);
-  background-size: contain; }
+  background-size: contain;
+  background-color: #3c65af;
+  background-repeat: repeat-x; }
   .ocean img {
     position: absolute; }
   .ocean .fish-1 {
