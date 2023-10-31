@@ -91,4 +91,20 @@ footer .links {
     bottom: 24%;
     width: 14%;
   }
+
+  .seagull {
+    width: 10%;
+    top: 8%;
+    left: 100%;
+    animation: fly 13s linear 2s infinite;
+  }
+}
+
+@keyframes fly {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: -20%;
+  }
 }
