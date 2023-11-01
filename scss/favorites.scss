@@ -10,12 +10,23 @@ main {
     background-color: $color-6;
     border-radius: 8px;
     padding: 16px;
-  }
+}
 
+.favorites-entry:hover{
+    color: $color-7;
+    background-color: $color-3;
+
+}
   .favorites-entry{
     @extend .card;
     margin-top: 16px;
+    
+    @media screen and (min-width: 768px) {
+      display:flex;
+
+      .number-of-container, .shipping-line, .date, .location {
+        flex: 1;
+      }
+    }
   }
   
-//   @media screen and (min-width: 768px) {
-//     flex-direction: row;

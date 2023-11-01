@@ -7,5 +7,14 @@ main {
   border-radius: 8px;
   padding: 16px; }
 
+.favorites-entry:hover {
+  color: white;
+  background-color: #2364AA; }
+
 .favorites-entry {
   margin-top: 16px; }
+  @media screen and (min-width: 768px) {
+    .favorites-entry {
+      display: flex; }
+      .favorites-entry .number-of-container, .favorites-entry .shipping-line, .favorites-entry .date, .favorites-entry .location {
+        flex: 1; } }
