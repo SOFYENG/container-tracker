@@ -1,0 +1,11 @@
+main {
+  margin: 100px auto;
+  max-width: 960px; }
+
+.card, .favorites-entry {
+  background-color: #AEE4FF;
+  border-radius: 8px;
+  padding: 16px; }
+
+.favorites-entry {
+  margin-top: 16px; }
