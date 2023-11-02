@@ -5,7 +5,7 @@ main {
 
 .bubble {
   border-radius: 50%;
-  background-color: #8ad1f4d6;
+  background-color: #3DA5D9;
   width: 400px;
   height: 400px;
   text-align: center;
@@ -14,7 +14,7 @@ main {
 
 h1 {
   color: #EA7317;
-  border-bottom: 1px solid #3c65af;
+  border-bottom: 1px solid #2364AA;
   margin: 30px 70px;
   padding-bottom: 6px; }
 
@@ -28,7 +28,7 @@ h1 {
   margin: 20px auto;
   padding: 12px;
   border: 2px solid #EA7317;
-  color: #3c65af; }
+  color: #2364AA; }
 
 .search:focus-visible {
   outline: none;
