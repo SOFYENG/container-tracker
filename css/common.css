@@ -31,10 +31,15 @@ header {
   height: 64px; }
 
 header h2 {
-  font-size: 32px; }
+  font-size: 32px;
+  display: flex;
+  align-items: center; }
   header h2 a {
     color: #FEC601;
     text-decoration: none; }
+
+header .logo {
+  width: 100px; }
 
 footer {
   bottom: 0;

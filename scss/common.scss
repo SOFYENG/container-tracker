@@ -41,11 +41,17 @@ header {
 header {
   h2 {
     font-size: 32px;
+    display: flex;
+    align-items: center;
 
     a {
       color: $color-2;
-      text-decoration: none;
+      text-decorsation: none;
     }
+  }
+
+  .logo {
+    width: 100px;
   }
 }
 
