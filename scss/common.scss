@@ -81,6 +81,7 @@ footer .links {
   background-size: contain;
   background-color: #3c65af;
   background-repeat: repeat-x;
+  animation: sea 5000s linear infinite;
 
   img {
     position: absolute;
@@ -90,12 +91,14 @@ footer .links {
     left: 10%;
     bottom: 20%;
     width: 14%;
+    animation: revolta 5s infinite;
   }
 
   .fish-2 {
     right: 10%;
     bottom: 24%;
     width: 14%;
+    animation: revolta 5s 2s infinite;
   }
 
   .seagull {
@@ -113,4 +116,25 @@ footer .links {
   100% {
     left: -20%;
   }
+}
+
+@keyframes sea {
+  0% {
+    background-position-x: 0;
+  }
+  100% {
+    background-position-x: 100000%;
+  }
+}
+
+@keyframes revolta {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
 }
